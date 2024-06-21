@@ -5,14 +5,14 @@
 <p><b>This code is ES6 version of <a href="https://github.com/camohub/jquery-sortable-lists">jquery-sortable-lists</a>.</b></p>
 
 
-<h3>How to use?</h3>
+## How to use?
 <p>
-Instead of
-<code>
-$('#myList').sortableLists( options );</code><br>
-<code>import SortableList from './js/sortableList';</code>
-<code>const sortable = new SortableList('#sTree2', options);</code><br>
-<code>sortable.sortableListsToArray()</code><br>
-<code>sortable.sortableListsToHierarchy()</code><br>
-<code>sortable.sortableListsToString()</code><br>
-</p>
+Instead of <code>$('#myList').sortableLists( options );</code></p>
+
+```bash
+import SortableList from './js/sortableList';
+const sortable = new SortableList('#sTree2', options);
+sortable.sortableListsToArray();
+sortable.sortableListsToHierarchy();
+sortable.sortableListsToString();
+```
