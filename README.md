@@ -9,7 +9,7 @@
 <p>
 Instead of
 <code>
-<~~$('#myList').sortableLists( options );~~></code><br>
+$('#myList').sortableLists( options );</code><br>
 <code>import SortableList from './js/sortableList';</code>
 <code>const sortable = new SortableList('#sTree2', options);</code><br>
 <code>sortable.sortableListsToArray()</code><br>
